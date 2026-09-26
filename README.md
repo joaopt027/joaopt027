@@ -6,7 +6,7 @@
 <div align="center">
 
 <!-- BANNER PERSONALIZADO -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:FF69B4&height=220&section=header&text=Jo%C3%A3o%20Pedro%20Temporim&fontSize=42&fontColor=#000000&animation=fadeIn&desc=Estudante%20de%20TI%20%7C%20Desenvolvedor%20em%20Forma%C3%A7%C3%A3o&descAlignY=62&descSize=18&descColor=FFFFFF" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:FF69B4&height=220&section=header&text=Jo%C3%A3o%20Pedro%20Temporim&fontSize=42&fontColor=000000&animation=fadeIn&desc=Estudante%20de%20TI%20%7C%20Desenvolvedor%20em%20Forma%C3%A7%C3%A3o&descAlignY=62&descSize=18&descColor=FFFFFF" width="100%"/>
 
 <!-- TYPING ANIMATION -->
 <a href="https://git.io/typing-svg">
@@ -123,50 +123,6 @@
 <img src="https://github-profile-trophy.vercel.app/?username=joaopt027&theme=radical&no-frame=true&no-bg=false&margin-w=10&column=7"/>
 
 </div>
-
-<br/>
-
-<!-- SNAKE CONTRIBUTION -->
-## 🐍 Snake Contribution
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/joaopt027/joaopt027/output/github-contribution-grid-snake.svg" width="100%"/>
-
-</div>
-
-<!--
-  ⚙️ Para o Snake funcionar, crie um repositório especial chamado "joaopt027"
-  (mesmo nome do seu usuário, um "repositório perfil") e adicione o arquivo abaixo em:
-  .github/workflows/snake.yml
-
-  name: Generate Snake
-  on:
-    schedule:
-      - cron: "0 0 * * *"
-    workflow_dispatch:
-    push:
-      branches:
-        - main
-  jobs:
-    generate:
-      permissions:
-        contents: write
-      runs-on: ubuntu-latest
-      steps:
-        - uses: Platane/snk@v3
-          with:
-            github_user_name: joaopt027
-            outputs: |
-              dist/github-contribution-grid-snake.svg
-              dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        - uses: crazy-max/ghaction-github-pages@v4
-          with:
-            target_branch: output
-            build_dir: dist
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
--->
 
 <br/>
 
